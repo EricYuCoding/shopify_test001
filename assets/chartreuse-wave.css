@@ -1,0 +1,11 @@
+.chartreuse-wave {
+    width: 100%;
+    height: 100px;
+    background-image: url("{{'/assets/chartreuse-scallop-solid.svg' | asset_url}}");
+    background-repeat: repeat-x;
+    transform: scaleY(-1);
+    z-index: 3;
+    position: relative;
+    margin-top: -12px;
+    border: 2px solid red;
+}

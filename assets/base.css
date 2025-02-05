@@ -8,6 +8,17 @@
   --focused-base-box-shadow: 0 0 0 0.3rem rgb(var(--color-background)), 0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3);
 }
 
+.chartreuse-wave {
+  width: 100%;
+  height: 100px;
+  background-image: url("{{'/assets/chartreuse-scallop-solid.svg' | asset_url}}");
+  background-repeat: repeat-x;
+  transform: scaleY(-1);
+  z-index: 3;
+  position: relative;
+  margin-top: -12px;
+}
+
 .product-card-wrapper .card,
 .contains-card--product {
   --border-radius: var(--product-card-corner-radius);
@@ -2794,7 +2805,7 @@ details[open] > .header__submenu {
 .header__menu-item {
   padding: 1.2rem;
   text-decoration: none;
-  color: rgba(var(--color-foreground), 0.75);
+  color: red;
 }
 
 .header__menu-item:hover {
