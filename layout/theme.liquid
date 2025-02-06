@@ -307,9 +307,10 @@
     {%- if settings.cart_type == 'drawer' -%}
       {%- render 'cart-drawer' -%}
     {%- endif -%}
-
+    <p>This is before wave</p>
+    {% section 'wave' %}
     {% sections 'header-group' %}
-    <h2 style="text-align: center">this is a test</h2>
+
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       {{ content_for_layout }}
     </main>
